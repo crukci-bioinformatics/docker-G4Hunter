@@ -4,11 +4,6 @@ rm -rf G4Hunter
 
 git clone https://github.com/LacroixLaurent/G4Hunter.git G4Hunter
 
-chmod ugo+r G4Hunter/*.R
-chmod ugo+r G4Hunter/*.r
-chmod ugo+r G4Hunter/www/*
-chmod ugo+r shiny-server.conf
-
 # build docker image
 docker build --tag="crukci-bioinformatics/g4hunter" .
 
