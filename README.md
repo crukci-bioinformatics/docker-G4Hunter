@@ -50,7 +50,7 @@ shiny user instead of root:
 ```
 mkdir -p logs
 chmod ugo+rwx logs
-docker run -u shiny -d -p 8080:3838 -v ${PWD}/logs:/var/log/shiny-server crukcibioinformatics/g4huner
+docker run -u shiny -d -p 8080:3838 -v ${PWD}/logs:/var/log/shiny-server crukcibioinformatics/g4hunter
 ```
 
 
