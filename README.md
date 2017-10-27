@@ -8,7 +8,7 @@ to evaluate the propensity for DNA and RNA sequences to form G-quadruplex struct
 This repository contains a Dockerfile used to build a [Docker](https://www.docker.com) image in
 which [Shiny Server](https://www.rstudio.com/products/shiny/shiny-server), R, the G4Hunter web
 application and all its R package dependencies are installed. The Docker image is built on the
-[shiny-base](https://github.com/crukci-bioinformatics/shiny-base/blob/master/README.md)
+[shiny-base](https://github.com/crukci-bioinformatics/shiny-base)
 image which packages Shiny Server, R and the [tidyverse](https://www.tidyverse.org)
 R packages.
 
