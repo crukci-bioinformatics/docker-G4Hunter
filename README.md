@@ -42,6 +42,8 @@ To deploy the application within a Docker container running Shiny Server:
 docker run -p 3838:3838 crukcibioinformatics/g4hunter
 ```
 
+The application should be accessible at http://localhost:3838/G4Hunter.
+
 To deploy the application in detached mode (`-d`), listening on the host's port
 8080 (`-p 8080:3838`), capturing logging information so that this is accessible
 outside the container, and running more securely within the container as the
